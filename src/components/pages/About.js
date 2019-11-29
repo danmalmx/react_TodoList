@@ -1,10 +1,12 @@
 import React from 'react'
 
-export default function About() {
+export function About() {
   return (
-    <React.Framgment>
+    <div>
       <h1>About</h1>
-      <p>This is the Todo list app mde in</p>
-    </React.Framgment>
+      <p>This is the Todo list app made with React</p>
+    </div>
   )
 }
+
+export default About;
